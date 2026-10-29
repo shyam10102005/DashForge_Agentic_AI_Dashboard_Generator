@@ -1,0 +1,40 @@
+# ============================================
+# DashForge - Agentic Dashboard Generator
+# ============================================
+
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic>=2.5.0
+
+# Streamlit Frontend
+streamlit>=1.29.0
+
+# Database (DuckDB for analytics)
+duckdb>=1.0.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=2.0.0
+openpyxl>=3.1.2
+xlrd>=2.0.1
+
+# Statistical Analysis
+scipy>=1.13.0
+
+# Visualization
+plotly>=5.18.0
+matplotlib>=3.8.0
+
+# LLM Integration (Ollama local)
+httpx>=0.25.0
+
+# Report & Export
+reportlab>=4.0.8
+lxml>=5.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+aiofiles>=23.2.0
+Jinja2>=3.1.0

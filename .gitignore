@@ -1,0 +1,49 @@
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data & Databases (exclude all runtime data)
+**/data/uploads/
+**/data/db/
+**/data/reports/
+**/data/exports/
+**/data/output/
+
+# Environment variables
+.env
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test outputs
+*.pdf
+*.zip
+
+# Samples (binary test files)
+**/samples/*.pbit
+**/samples/*.twb
+
+# Other files (archive folder)
+other_files/
+
+# Gemini / Antigravity
+.agents/
+.gemini/
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
